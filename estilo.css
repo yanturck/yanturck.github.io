@@ -1,10 +1,46 @@
 body {
-  background-color: black;
-  font-family: Arial;
-  font-size: 12pt;
-  color: white;
+	background-color: black;
+	font-family: Arial;
+	font-size: 12pt;
+	color: white;
+	margin: auto;
+}
+h1 {
+	font-family: Times;
+	font-size: 20pt;
+	color: white;
+	font-weight: bold;
+}
+h2 {
+	font-family: Times;
+	font-size: 16pt;
+	color: white;
+}
+h3 {
+	font-family: Arial;
+	font-size: 12pt;
+	color: white;
+}
+h4 {
+	font-family: Arial;
+	font-size: 12pt;
+	color: yellow;
 }
 a {
   color: yellow;
   text-decoration: none;
+}
+.cabecalho {
+	display: table;
+	
+}
+.imagem {
+	display: table-cell;
+	float: left;
+}
+.nome {
+	display: table-cell;
+	float: left;
+	width: 600px;
+	margin-top: 20px;
 }
