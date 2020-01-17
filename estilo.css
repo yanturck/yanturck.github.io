@@ -24,6 +24,11 @@ h4 {
 	font-size: 11pt;
 	color: gray;
 }
+h5 {
+	font-size: 12pt;
+	color: white;
+	text-align: center;
+}
 .tabela {
 	display: table;
 	
@@ -65,4 +70,30 @@ h4 {
 .dir1 {
 	display: table-cell;
 	float: right;
+}
+
+.progress{
+    height: 5px;
+    background-color: #777;
+    position: relative;
+}
+.progress .basic{
+   position: absolute;
+   height: 100%;
+   background-color: #add555;
+   animation: loading 3s infinite;
+}
+@keyframes loading{
+    0% { width: 0%; }
+    100% { width: 33%}   
+}
+.progress .intermed{
+   position: absolute;
+   height: 100%;
+   background-color: #add555;
+   animation: progress-animation 5s infinite;
+}
+@keyframes progress-animation{
+    0% { width: 0%; }
+    100% { width: 67%}    
 }
