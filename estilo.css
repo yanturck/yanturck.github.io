@@ -47,14 +47,15 @@ h4 {
 .esquerda {
 	display: table-cell;
 	float: left;
-	width: 380px;
-	margin-left: 40px;
+	width: 350px;
+	margin-left: 20px;
 }
 .direita {
 	display: table-cell;
 	float: right;
-	width: 500px;
-	margin-right: 40px;
+	margin-left: 40px;
+	width: 590px;
+	margin-right: 20px;
 }
 .esq1 {
 	display: table-cell;
