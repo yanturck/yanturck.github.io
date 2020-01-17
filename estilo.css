@@ -54,16 +54,15 @@ h4 {
 	display: table-cell;
 	float: right;
 	width: 500px;
-	margin-left: 60px;
+	margin-right: 40px;
 }
 .esq1 {
 	display: table-cell;
 	float: left;
 	width: 100px;
-	margin-right: 15px
+	margin-right: 10px
 }
 .dir1 {
 	display: table-cell;
 	float: right;
-	margin-right: 5px;
 }
