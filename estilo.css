@@ -30,8 +30,8 @@ h5 {
 	text-align: center;
 }
 .tabela {
-	display: table;
-	
+	display: flex;
+	justify-content: center;
 }
 .imagem {
 	display: table-cell;
