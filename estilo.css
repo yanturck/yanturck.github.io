@@ -74,14 +74,14 @@ h5 {
 
 .progress{
     height: 5px;
-    background-color: #777;
+    background-color: #808080;
     position: relative;
 }
 .progress .basic{
    position: absolute;
    height: 100%;
-   background-color: #add555;
-   animation: loading 3s infinite;
+   background-color: #fff;
+   animation: loading 6s infinite;
 }
 @keyframes loading{
     0% { width: 0%; }
@@ -90,8 +90,8 @@ h5 {
 .progress .intermed{
    position: absolute;
    height: 100%;
-   background-color: #add555;
-   animation: progress-animation 5s infinite;
+   background-color: #fff;
+   animation: progress-animation 6s infinite;
 }
 @keyframes progress-animation{
     0% { width: 0%; }
